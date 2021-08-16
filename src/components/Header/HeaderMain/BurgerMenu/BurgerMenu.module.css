@@ -1,0 +1,52 @@
+.burgerMenu{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.burgerMenuInner{
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0d0e17;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.burgerMenuList{
+    margin-top: 80px;
+    list-style-type: none;
+    line-height: 4;
+    font-size: 14px;
+    padding-left: 10%;
+}
+
+.burgerMenuList li{
+}
+
+.burgerMenuLink{
+    color: #fff;
+    text-decoration: none;
+}
+
+.active{
+    color: red;
+    text-decoration: none;
+}
+
+.burgerMenuClose{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    font-size: 22px;
+}
+
+.burgerMenuClose:hover{
+    color: red;
+}
